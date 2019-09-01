@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commons" />
+        <module name="eurekaCo" />
+        <module name="eurekaPro" />
+        <module name="gateway" />
+        <module name="mygateway" />
+        <module name="resilience4j" />
+        <module name="server0" />
+        <module name="server1" />
+        <module name="server2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons" target="1.8" />
+      <module name="eurekaCo" target="1.8" />
+      <module name="eurekaPro" target="1.8" />
+      <module name="eurekaServer" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="mygateway" target="1.8" />
+      <module name="resilience4j" target="1.8" />
+      <module name="server0" target="1.8" />
+      <module name="server1" target="1.8" />
+      <module name="server2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

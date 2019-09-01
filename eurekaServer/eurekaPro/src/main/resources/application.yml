@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: provider
+server:
+  port: 8084
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaB:8002/eureka/
+    fetch-registry: false
